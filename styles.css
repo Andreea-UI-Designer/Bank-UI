@@ -1,110 +1,48 @@
-body {
-    font-family: 'Comic Sans MS', sans-serif;
-    background-color: #f2f4f6;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    max-width: 903px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f2f4f6;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    width: 33px;
-    height: 35px;
-    margin-right: 10px;
-}
-
-.bank-name {
-    font-size: 16px;
-    font-weight: bold;
-    margin-right: 30px;
-}
-
-.nav-menu {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-}
-
-.nav-item {
-    margin: 0 10px;
-    cursor: pointer;
-    position: relative;
-}
-
-.nav-item::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background-color: #000;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    transform: scaleX(0);
-    transition: transform 0.3s ease;
-}
-
-.nav-item:hover::after {
-    transform: scaleX(1);
-}
-
-.user-info {
-    display: flex;
-    align-items: center;
-}
-
-.username {
-    font-size: 13px;
-    font-style: italic;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-.user-image {
-    width: 40px;
-    height: 35px;
-    border-radius: 50%;
-}
-
-.divider {
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid #ddd;
-}
-
-.content {
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.section {
-    display: none;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.section.active {
-    display: block;
-}
-
 .rounded-anchorpane {
-    background-color: #2A9D8F;
+    background-color: white;
     border-radius: 20px;
     padding: 10px;
+}
+
+.rounded-button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1px 6px;
+    border-radius: 8px;
+}
+
+.image-button {
+    background-color: transparent;
+    background-image: url('credit_card.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bold;
+    padding: 1px 6px;
+    border-radius: 15px;
+}
+
+.rounded-anchorpane2 {
+    background-radius: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.text-with-line {
+    color: white;
+    font-size: 16px;
+    font-weight: regular;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0 0 1px 0;
+    padding: 0 0 5px 0;
+}
+
+.rounded-button2 {
+    background-color: #FAC352;
+    color: black;
+    font-weight: bold;
+    padding: 1px 6px;
+    border-radius: 8px;
 }
