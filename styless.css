@@ -1,0 +1,66 @@
+.rounded-anchorpane {
+    -fx-background-color: white;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-padding: 10;
+}
+
+.rounded-button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 1px 6px; /* Reducem padding-ul pentru dimensiuni mai mici */
+    -fx-background-radius: 8; /* Reducem raza pentru un aspect mai mic */
+    -fx-min-width: -1;
+    -fx-max-width: -1;
+    -fx-min-height: -1;
+    -fx-max-height: -1;
+}
+
+.image-button {
+    -fx-background-color: transparent; /* Fundal transparent */
+    -fx-background-image: url('credit_card.png'); /* Calea către imagine */
+    -fx-background-size: cover; /* Mărimea imaginii se adaptează la dimensiunea butonului */
+    -fx-background-position: center; /* Poziția imaginii în buton (centru) */
+    -fx-text-fill: white; /* Culoarea textului */
+    -fx-font-weight: bold; /* Stilul textului */
+    -fx-padding: 1px 6px; /* Padding pentru buton */
+    -fx-min-width: -1; /* Dimensiuni dinamice */
+    -fx-max-width: -1; /* Dimensiuni dinamice */
+    -fx-min-height: -1; /* Dimensiuni dinamice */
+    -fx-max-height: -1; /* Dimensiuni dinamice */
+    -fx-border-radius: 15; /* Rotunjirea marginilor */
+    -fx-background-radius: 15; /* Rotunjirea marginilor */
+}
+
+.rounded-anchorpane2 {
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-padding: 10;
+}
+
+.text-with-line {
+    -fx-text-fill: white; /* Culoarea textului */
+    -fx-font-size: 16px; /* Mărimea fontului */
+    -fx-font-weight: regular; /* Stilul textului */
+    -fx-border-style: solid;
+    -fx-border-color: gray; /* Culoarea liniei */
+    -fx-border-width: 0 0 1px 0; /* Grosimea liniei (doar sub) */
+    -fx-padding: 0 0 5px 0; /* Spațierea între text și linie */
+}
+
+.rounded-button2 {
+    -fx-background-color:  #FAC352;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 1px 6px; /* Reducem padding-ul pentru dimensiuni mai mici */
+    -fx-background-radius: 8; /* Reducem raza pentru un aspect mai mic */
+    -fx-min-width: -1;
+    -fx-max-width: -1;
+    -fx-min-height: -1;
+    -fx-max-height: -1;
+}
+
+
+
+

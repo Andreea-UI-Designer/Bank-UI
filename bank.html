@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hustler Bank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Logo" class="logo">
+            <span class="bank-name">HUSTLER BANK</span>
+            <nav class="nav-menu">
+                <span class="nav-item" onclick="showSection('home')">Home</span>
+                <span class="nav-item" onclick="showSection('transactions')">Transactions</span>
+                <span class="nav-item" onclick="showSection('payments')">Payments</span>
+                <span class="nav-item" onclick="showSection('deposits')">Deposits</span>
+                <span class="nav-item" onclick="showSection('credits')">Credits</span>
+                <span class="nav-item" onclick="showSection('archive')">Archive</span>
+            </nav>
+            <div class="user-info">
+                <span class="username">Deea95</span>
+                <img src="me.png" alt="User Image" class="user-image">
+            </div>
+        </div>
+        <hr class="divider">
+        <div class="content">
+            <div class="section rounded-anchorpane" id="home">Welcome to Hustler Bank!</div>
+            <div class="section rounded-anchorpane" id="transactions">Transactions Section</div>
+            <div class="section rounded-anchorpane" id="payments">Payments Section</div>
+            <div class="section rounded-anchorpane" id="deposits">Deposits Section</div>
+            <div class="section rounded-anchorpane" id="credits">Credits Section</div>
+            <div class="section rounded-anchorpane" id="archive">Archive Section</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
